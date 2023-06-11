@@ -3,9 +3,9 @@
 gradioを使用して生成されるURLへ移動し，その数字であると思われる上位4つを表示
 
 ## Version
-python 3.11.3 
-tensorflow 2.12.0 
-gradio 3.23.0
+python 3.11.3  
+tensorflow 2.12.0  
+gradio 3.23.0  
 
 ## 内容
 モデル生成
