@@ -24,7 +24,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 ```
 
-## 使用方法
+## 使い方（Usage）
 ``` 
 python main.py
 ``` 
