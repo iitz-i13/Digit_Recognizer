@@ -11,6 +11,8 @@ model = tf.keras.models.Sequential([
   tf.keras.layers.Flatten(input_shape=(28, 28)),
   tf.keras.layers.Dense(128, activation='relu'),
   tf.keras.layers.Dense(128, activation='relu'),
+  tf.keras.layers.Dropout(0.2),  # ドロップアウト層を追加
+  tf.keras.layers.LSTM(64),  # 追加のLSTM層
   tf.keras.layers.Dense(10, activation='softmax')
 ])
 
